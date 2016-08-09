@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Serif;
+  background-color: #dadfeb; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px; } }
+#main-navigation li > a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #2f57a1;
+  padding: 0 0 0 40px;
+  line-height: 90px; }
+#main-navigation li.active > a {
+  color: black;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #ccc);
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 25px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px rgba(100, 100, 100, 0.5);
+  margin-right: -40%;
+  padding-left: 20%;
+  margin-top: 34px; }
+
+header .container {
+  padding-right: 0;
+  padding-left: 0; }
+header .container-fluid {
+  background-image: linear-gradient(to bottom, #c5cee4, white);
+  min-height: 90px;
+  padding-right: 0;
+  padding-left: 0;
+  box-shadow: 0px 10px 15px rgba(100, 100, 100, 0.4); }
+header .navbar-brand {
+  padding-left: 15px;
+  padding-right: 0;
+  margin: 0;
+  margin-top: 7px;
+  font-size: 43px;
+  font-weight: bold; }
+header .navbar {
+  border: none;
+  margin-bottom: 0; }
+header .slogan {
+  display: block;
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+  color: #2f57a1;
+  margin-top: 15px; }
+header .navbar-collapse {
+  padding-right: 10px; }
+header .navbar-brand > a {
+  background: -webkit-linear-gradient(#6a73b6, #38569a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.hero {
+  background-color: #38569a;
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 2px #fff; }
+  .hero .item {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+    .hero .item img {
+      width: 100%; }
+
+#bannerCarousel {
+  position: relative; }
+
+.carousel-indicators {
+  margin-bottom: 5px; }
+  @media (min-width: 1200px) {
+    .carousel-indicators {
+      margin-bottom: 0; } }
+
+.carousel-indicators li {
+  box-shadow: 0 2px 2px rgba(100, 100, 100, 0.4);
+  background-image: linear-gradient(to bottom, #fff, #ccc);
+  border: none;
+  width: 17px;
+  height: 17px;
+  margin: 0 8px; }
+
+.carousel-indicators .active {
+  width: 17px;
+  height: 17px;
+  margin: 0 8px;
+  background-color: #fff;
+  box-shadow: inset 0 0 20px #38569a;
+  border-bottom: 1px solid white;
+  border-top: 1px solid black; }
+
+.marketing > .container {
+  background-image: url("../images/marketing.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .marketing > .container img {
+    margin: 15px 0 30px 0; }
+
+.feature {
+  background-color: white;
+  margin: 10px 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 17px -1px #807880;
+  -moz-box-shadow: 0px 0px 17px -1px #807880;
+  box-shadow: 0px 0px 17px -1px #807880; }
+
+/*# sourceMappingURL=style.css.map */
