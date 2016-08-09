@@ -160,7 +160,7 @@ footer {
     width: 35px;
     height: 35px;
     display: inline-block;
-    color: white;
+    color: #dadfeb;
     background-color: #373d56;
     box-shadow: inset 0 0 20px #38569a;
     border-bottom: 1px solid rgba(200, 200, 200, 0.5);
@@ -182,5 +182,18 @@ footer {
     color: #dadfeb; }
   footer .links {
     margin-bottom: 10px; }
+  footer .link {
+    padding: 0 10px;
+    border-left: 1px solid #dadfeb; }
+  footer .link:first-child {
+    padding-left: 0;
+    border-left: none; }
+  footer .dark > .link {
+    border-left: 1px solid #9fa8bd;
+    padding: 0 5px; }
+    footer .dark > .link a, footer .dark > .link a:hover, footer .dark > .link a:visited, footer .dark > .link a:active {
+      color: #9fa8bd; }
+  footer .dark > .copyright {
+    padding-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
